@@ -1,0 +1,47 @@
+/*Etiquetas Generales*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font: 300 12px "Fredoka", sans-serif;
+}
+cite{
+    font: 300 12px;
+}
+table{
+    border-collapse: collapse;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 15px;
+    color: #B3CB08;
+}
+
+
+/*Ids y Clases especificas*/
+#photo{
+    background-color: #012340;
+    padding: 30px 30px 30px 30px;
+}
+#top{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#id_left_botton{
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+#id_rigth_botton{
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+.left{
+    padding-left: 30px;
+}
+.right{
+    padding-right: 30px;
+}
