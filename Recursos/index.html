@@ -6,21 +6,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <style>
+        /*Etiquetas Generales*/
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            font: 300 12px "Fredoka", sans-serif;
+        }
+        cite{
+            font: 300 12px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        h2{
+            font-size: 24px;
+        }
+        h3{
+            font-size: 15px;
+            color: #B3CB08;
+        }
+        
+        /*Ids y Clases especificas*/
+        #photo{
+            background-color: #012340;
+            padding: 30px 30px 30px 30px;
+        }
+        #top{
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #id_left_botton{
+            padding-bottom: 30px;
+            padding-left: 30px;
+        }
+        #id_rigth_botton{
+            padding-bottom: 30px;
+            padding-right: 30px;
+        }
+        .left{
+            padding-left: 30px;
+        }
+        .right{
+            padding-right: 30px;
+        }
+    </style>
 </head>
 <body>
+    <!--INICIO Firma Electronica-->
     <table>
+        <!--Se utiliza un tbody para que quede todo el contenido en un mismo espacio-->
         <tbody>
+            <!--Se organizan las filas y las columnas que vamos a utilizar-->
             <tr id="top">
+                <!--Se coloca la imagen en un td(para la foto) con un colspan que colicione 5 filas para luego organizar el contenido-->
                 <td rowspan="5" id="photo">
                     <img src="./Imgs/Yo-168w.png" alt="">
                 </td>
+                <!--Se coloca un td(para el texto libre sin iconos) con un colspan con 2 columnas para poder organizar luego las imagenes y el texto de cada icono y que quede centrado-->
                 <td colspan="2" id="top">
                     <h2>David L. Becerra Panqueva</h2>
                     <h3>Estudiante | Programador | Diseñador Web</h3>
                     <p><cite>"La disciplina es el puente entre las metas y el logro." (Jim Rohn)</cite></p>
                 </td>
             </tr>
+            <!--Se distribuyen las filas para cada icono y su respectivo texto-->
             <tr>
                 <td class="left"><img src="./Imgs/icono-universidad-25.png" alt="Icono Universidad"></td>
                 <td class="rigth">Corporación Unificada Nacional de Educación Superior - CUN</td>
@@ -39,5 +92,6 @@
             </tr>
         </tbody>
     </table>
+    <!--FIN Firma Electronica-->
 </body>
 </html
